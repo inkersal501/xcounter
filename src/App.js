@@ -5,10 +5,10 @@ function App() {
   const [number, setNumber] = useState(0);
 
   const handleIncrement = ()=>{
-    setNumber((number)=>number++);
+    setNumber((number)=>number+1);
   };
   const handleDecrement = ()=>{
-    setNumber((number)=>number--);
+    setNumber((number)=>number-1);
   };
   return (
     <div className="App">
